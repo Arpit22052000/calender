@@ -1,0 +1,27 @@
+.calender-week{
+    display: flex;
+    
+}
+
+.todayDate{
+    display: inline-block;
+    margin-left: 150px;
+    color: grey;
+}
+
+li{
+   margin-left: 20px;
+   list-style-type: none;
+   color: grey;
+}
+
+
+
+/* li{
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgb(115, 115, 228);
+    color: white;
+} */
