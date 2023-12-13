@@ -1,7 +1,41 @@
-.calender-week{
-    display: flex;
+    .dayFormat{
+        margin-left: 110px;
+        color: grey;
+    }
     
-}
+    .calendar-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .calender-week, .calender-dates {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap; /* Allow items to wrap to the next line */
+    }
+
+    .calender-week li, .calender-dates li {
+      margin: 5px; /* Adjust the margin as needed */
+    }
+
+    /* Style for day names */
+    .calender-week li {
+      width: 30px; /* Adjust the width as needed for day names */
+      text-align: center;
+    }
+
+    /* Style for dates */
+    .calender-dates li {
+      width: 30px; /* Adjust the width as needed for dates */
+      text-align: center;
+    }
+    .calender-dates{
+        margin-left:40px;
+        color: black;
+    }
 
 .todayDate{
     display: inline-block;
@@ -17,11 +51,4 @@ li{
 
 
 
-/* li{
-    margin-left: 20px;
-    padding: 10px;
-    border: 1px solid black;
-    border-radius: 50%;
-    background-color: rgb(115, 115, 228);
-    color: white;
-} */
+
